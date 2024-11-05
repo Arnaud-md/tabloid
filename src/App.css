@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.square {
+  border: 10px solid saddlebrown;
+  width: 808px;
+  height: 810px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.square_little {
+  border: 3px solid saddlebrown;
+  width: 196px;
+  height: 197px;
+}
+.image_verso {
+  width:196px;
+  height:197px;
+  background-color: lightyellow;
+}
