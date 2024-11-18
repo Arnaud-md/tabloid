@@ -2,9 +2,7 @@ import { useCallback, useEffect, useState } from 'react'
 import './App.css'
 
 function App() {
-  const [visible, setVisible] = useState(1);
-  const [count, setCount] = useState(0);
-  const [rand, setRand] = useState([]);
+
   const [tab, setTab] = useState([] as string[]);
 
 
@@ -115,180 +113,100 @@ const handleClick6 = useCallback(()=> {
       <div>
         <div className='square'>
           <div className='square_little'>
-            {visible===0?
-              <div className='image_verso'>
-              </div>
-            :
               <div onClick={handleClick}>
               <img title='image' style={{width:"196px" , height:"196px"}} src={tab[0]} >
               </img>
               </div>
-            }
           </div>
           <div className='square_little'>
-            {visible===0?
-              <div className='image_verso'>
-              </div>
-            :
               <div onClick={handleClick2}>
               <img title='image' style={{width:"196px" , height:"196px"}} src={tab[1]}>
               </img>
               </div>
-            }
           </div>
           <div className='square_little'>
-            {visible===0?
-              <div className='image_verso'>
-              </div>
-            :
               <div onClick={handleClick3}>
               <img title='image' style={{width:"196px" , height:"196px"}} src={tab[2]}>
               </img>
               </div>
-            }
           </div>
           <div className='square_little'>
-            {visible===0?
-              <div className='image_verso'>
-              </div>
-            :
               <div onClick={handleClick4}>
               <img title='image' style={{width:"196px" , height:"196px"}} src={tab[3]}>
               </img>
               </div>
-            }
           </div>
           <div className='square_little'>
-            {visible===0?
-              <div className='image_verso'>
-              </div>
-            :
               <div onClick={handleClick5}>
               <img title='image' style={{width:"196px" , height:"196px"}} src={tab[4]}>
               </img>
               </div>
-            }
           </div>
           <div className='square_little'>
-            {visible===0?
-              <div className='image_verso'>
-              </div>
-            :
               <div onClick={handleClick6}>
               <img title='image' style={{width:"196px" , height:"196px"}} src={tab[5]}>
               </img>
               </div>
-            }
           </div>
           <div className='square_little'>
-            {visible===0?
-              <div className='image_verso'>
-              </div>
-            :
               <div onClick={handleClick2}>
               <img title='image' style={{width:"196px" , height:"196px"}} src={tab[6]}>
               </img>
               </div>
-            }
           </div>
           <div className='square_little'>
-            {visible===0?
-              <div className='image_verso'>
-              </div>
-            :
               <div onClick={handleClick}>
               <img title='image' style={{width:"196px" , height:"196px"}} src={tab[7]}>
               </img>
               </div>
-            }
           </div>
           <div className='square_little'>
-            {visible===0?
-              <div className='image_verso'>
-              </div>
-            :
               <div onClick={handleClick}>
               <img title='image' style={{width:"196px" , height:"196px"}} src={tab[8]}>
               </img>
               </div>
-            }
           </div>
           <div className='square_little'>
-            {visible===0?
-              <div className='image_verso'>
-              </div>
-            :
               <div onClick={handleClick2}>
               <img title='image' style={{width:"196px" , height:"196px"}} src={tab[9]}>
               </img>
               </div>
-            }
           </div>
           <div className='square_little'>
-            {visible===0?
-              <div className='image_verso'>
-              </div>
-            :
               <div onClick={handleClick}>
               <img title='image' style={{width:"196px" , height:"196px"}} src={tab[10]}>
               </img>
               </div>
-            }
           </div>
           <div className='square_little'>
-            {visible===0?
-              <div className='image_verso'>
-              </div>
-            :
               <div onClick={handleClick2}>
               <img title='image' style={{width:"196px" , height:"196px"}} src={tab[11]}>
               </img>
               </div>
-            }
           </div>
           <div className='square_little'>
-            {visible===0?
-              <div className='image_verso'>
-              </div>
-            :
               <div onClick={handleClick}>
               <img title='image' style={{width:"196px" , height:"196px"}} src={tab[12]}>
               </img>
               </div>
-            }
           </div>
           <div className='square_little'>
-            {visible===0?
-              <div className='image_verso'>
-              </div>
-            :
               <div onClick={handleClick2}>
               <img title='image' style={{width:"196px" , height:"196px"}} src={tab[13]}>
               </img>
               </div>
-            }
           </div>
           <div className='square_little'>
-            {visible===0?
-              <div className='image_verso'>
-              </div>
-            :
               <div onClick={handleClick}>
               <img title='image' style={{width:"196px" , height:"196px"}} src={tab[14]}>
               </img>
               </div>
-            }
           </div>
           <div className='square_little'>
-            {visible===0?
-              <div className='image_verso'>
-              </div>
-            :
               <div onClick={handleClick}>
               <img title='image' style={{width:"196px" , height:"196px"}} src={tab[15]} onClick={handleClick}>
               </img>
               </div>
-            }
           </div>
         </div>
       </div>
